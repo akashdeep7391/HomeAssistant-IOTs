@@ -9,15 +9,15 @@
 #define MQTT_VERSION MQTT_VERSION_3_1_1
 
 // Wifi: SSID and password
-const char* WIFI_SSID = "Shield";
-const char* WIFI_PASSWORD = "82497ee384ewtxgt";
+const char* WIFI_SSID = "SSID";
+const char* WIFI_PASSWORD = "PASSWORD";
 
 // MQTT: ID, server IP, port, username and password
 const PROGMEM char* MQTT_CLIENT_ID = "BambuLab_THSenor";
-const PROGMEM char* MQTT_SERVER_IP = "192.168.1.17";
+const PROGMEM char* MQTT_SERVER_IP = "SERVER_IP";
 const PROGMEM uint16_t MQTT_SERVER_PORT = 1883;
-const PROGMEM char* MQTT_USER = "MQTT-User";
-const PROGMEM char* MQTT_PASSWORD = "8249";
+const PROGMEM char* MQTT_USER = "USERNAME";
+const PROGMEM char* MQTT_PASSWORD = "PASSWORD";
 
 // MQTT: topic
 const PROGMEM char* MQTT_SENSOR_TOPIC = "homeassistant/sensor/bambulab/thsensor";
